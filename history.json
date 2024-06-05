@@ -1,0 +1,46 @@
+{
+  "ATT-8T0-872-NZS-NZE-8RO-L1B-TFD": [
+    {
+      "imei": "354689820989970",
+      "model": "iPhone 15 Pro Max",
+      "description": "SVC,IPHONE15PROMAX,NAMM,256G,NTRL,CI/AR",
+      "serialNumber": "HTJYDX14JD",
+      "imei2": "undefined",
+      "meid": "35468982098997",
+      "loanerDevice": "No",
+      "replacedDevice": "No",
+      "appleCareEligible": "No",
+      "validPurchaseDate": "Yes",
+      "activationStatus": "Activated",
+      "registrationStatus": "Registered",
+      "warrantyStatus": "AppleCare+ with Theft and Loss",
+      "estimatedPurchaseDate": "2023-09-20",
+      "iCloudLock": "ON",
+      "blacklistStatus": "CLEAN",
+      "lockedCarrier": "10 - Unlock.",
+      "country": "undefined",
+      "simLock": "Unlocked"
+    },
+    {
+      "imei": "359464087047655",
+      "model": "iPhone 7 32GB Black MM [A1660] [iPhone9,1]",
+      "description": "IPHONE 7 BLACK 32GB VZN-USA",
+      "serialNumber": "DX3WV2WFHG6W",
+      "imei2": "undefined",
+      "meid": "35946408704765",
+      "loanerDevice": "No",
+      "replacedDevice": "No",
+      "appleCareEligible": "No",
+      "validPurchaseDate": "Yes",
+      "activationStatus": "Activated",
+      "registrationStatus": "Registered",
+      "warrantyStatus": "Coverage Expired",
+      "estimatedPurchaseDate": "2018-07-10",
+      "iCloudLock": "OFF",
+      "blacklistStatus": "CLEAN",
+      "lockedCarrier": "10 - Unlock.",
+      "country": "United States",
+      "simLock": "Unlocked"
+    }
+  ]
+}

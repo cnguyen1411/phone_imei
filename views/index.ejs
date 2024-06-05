@@ -1,0 +1,28 @@
+﻿<%- include('partials/header') %>
+<%- include('partials/navbar') %>
+
+<div class="container mt-4">
+  <h1>AUTOMATIC DEVICE INFO CHECK</h1>
+  <div class="form-group">
+    <label for="api-key">API Key:</label>
+    <input type="text" id="api-key" class="form-control" placeholder="Enter your API key">
+  </div>
+  <div class="row mt-4">
+    <div class="col-md-6">
+      <h2>Devices Plugged In</h2>
+      <div id="devices-plugged-in" class="row"></div>
+    </div>
+    <div class="col-md-6">
+      <h2>Device Info Checked</h2>
+      <div id="devices-info-checked" class="row"></div>
+    </div>
+  </div>
+  <button id="submit-btn" class="btn btn-primary mt-4">Submit</button>
+</div>
+<div class="overlay" id="overlay"></div>
+<div class="spinner" id="spinner"></div>
+
+<%- include('partials/footer') %>
+
+<script src="https://cdn.jsdelivr.net/npm/jsbarcode@3.11.5/dist/JsBarcode.all.min.js"></script>
+<script src="/socket.io/socket.io.js"></script>
